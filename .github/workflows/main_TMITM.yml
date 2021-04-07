@@ -39,7 +39,7 @@ jobs:
     needs: build
     environment:
       name: 'production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+      url: ${{ https://github.com/Stark-pratyush/appServicesAzure/blob/main/.github/workflows/index.html }}
 
     steps:
     - name: Download artifact from build job
